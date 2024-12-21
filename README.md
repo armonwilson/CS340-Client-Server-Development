@@ -61,7 +61,7 @@ The following tools and technologies were used to build this dashboard:
 
 ![Figure 5: State After Reset](image-4.png)
 
-## Assignment Rubric:
+## Assignment 8-2 Journal Rubric:
 **Maintainability, Readability, and Adaptability**
 
 The project emphasized the importance of writing clean, well-documented, and modular code. The CRUD Python module developed in Project One played a crucial role in achieving
