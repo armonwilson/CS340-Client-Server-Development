@@ -60,3 +60,22 @@ The following tools and technologies were used to build this dashboard:
 ![Figure 4: Disaster or Individual Tracking Filter](image-3.png)
 
 ![Figure 5: State After Reset](image-4.png)
+
+## Assignment 8-2 Journal Rubric:
+**Maintainability, Readability, and Adaptability**
+
+The project emphasized the importance of writing clean, well-documented, and modular code. The CRUD Python module developed in Project One played a crucial role in achieving
+these goals. By encapsulating database operations within this module, the dashboard code became more maintainable, readable, and adaptable. This modular approach also
+promotes reusability, allowing the CRUD module to be easily integrated into future projects involving MongoDB.
+
+**Approaching Problems as a Computer Scientist**
+
+This project required a systematic and analytical approach, starting with understanding the client's needs and then designing and implementing a solution that met those needs.
+The process involved database design, data visualization, and user interface development, providing a more holistic and real-world experience compared to previous assignments.
+For future database projects, techniques like data modeling, normalization, query optimization, and security considerations will be essential.
+
+**The Impact of Computer Science**
+
+Computer scientists play a crucial role in solving real-world problems through technology. The Grazioso Salvare dashboard demonstrates how computer science can empower
+organizations to improve their data management, analysis, and decision-making. By providing tools for efficient data visualization and analysis, this project can help the shelter
+to better understand their operations, optimize resource allocation, and ultimately improve the lives of animals in their care.
