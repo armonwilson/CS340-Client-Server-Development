@@ -7,13 +7,6 @@ class AnimalShelter(object):
     def __init__(self, USER, PASS, HOST, PORT, DB, COL):
         # Initializing the MongoClient. This helps to 
         # access the MongoDB databases and collections.
-        # This is hard-wired to use the aac database, the 
-        # animals collection, and the aac user.
-        # Definitions of the connection string variables are
-        # unique to the individual Apporto environment.
-        #
-        # You must edit the connection variables below to reflect
-        # your own instance of MongoDB!
         #
         # Connection Variables
         #
@@ -30,7 +23,7 @@ class AnimalShelter(object):
         self.database = self.client['%s' % (DB)]
         self.collection = self.database['%s' % (COL)]
 
-# Complete this create method to implement the C in CRUD.
+# Create method to implement the C in CRUD.
     def create(self, data):
         if data is not None:
             try:
@@ -43,7 +36,7 @@ class AnimalShelter(object):
             raise ValueError("Nothing to save, because data parameter is empty")
             return False
     
-# Create method to implement the R in CRUD.
+# Method to implement the R in CRUD.
     def read(self, data):
         try:
             result = list(self.collection.find(data))
